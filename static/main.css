@@ -1,0 +1,66 @@
+#top {
+  color: white;
+  height: 700px;
+  min-height: 100%;
+  width: 100%;
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("https://raw.githubusercontent.com/Brebeuf-Code/brebeuf-code.github.io/master/background_clean.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+#qui-description{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* font-weight: bold; */
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#landing_button {
+  position: relative;
+  top:250px;
+}
+
+#about {
+  /* min-height: 100%; */
+  width: 100%;
+}
+
+#method {
+  /* min-height: 100%; */
+  background-color: beige;
+}
+
+#team {
+  /* min-height: 100%; */
+  /* color: white; */
+  /* width: 100%;
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+}
+
+#pricing {
+  /* min-height: 100%; */
+  background-color: beige;
+}
+
+#contact {
+  /* min-height: 100%; */
+  background-color: white;
+}
+
+p{
+  font-size: 18px;
+}
+
+card{
+  margin:2px;
+}
+
+.add_shadow{
+  text-shadow: 0px 0px 10px rgba(0,0,0, 255);
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brébeuf Code</title>
+    <link rel="icon" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/45360654_2072829132768732_2856319832146575360_n.png?_nc_cat=100&_nc_ht=scontent-lga3-1.xx&oh=9247c54041982c46d133089cfb93d6f9&oe=5C3EC119" />
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='main.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Brébeuf Code</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="qui">Qui-sommes nous?</a>
+          </li>
+
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Événements
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="rencontres">Rencontres</a>
+              <a class="dropdown-item" href="https://www.brebeufhx.com">Hackathon</a>
+              <a class="dropdown-item" href="codesprint">SocioCode</a>
+              <a class="dropdown-item" href="competitions">Compétitions</a>
+
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ressources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="projets">Projets</a>
+              <a class="dropdown-item" href="ressources">Liens utiles</a>
+              <a class="dropdown-item" href="services">Services</a>
+            </div>
+          </div>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="contact" style="padding:5%">
+
+
+
+      <div class="container-fluid">
+        <div style="margin:5px; padding:1%;">
+          <h1>Rencontres</h1>
+          <p><b>Vous trouverez ici toutes les concepts présentés lors des rencontres hebdomadaires ainsi que des événements spéciaux.</p></b>
+          <p>Nous nous rencontrons toujours (sauf à avis contraire) les mercredis midis de 12h20 à 13h20 au local A3-45.</p>
+        </div>
+        <div class="row" style="margin:5px;">
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Démonstrations des jeux vidéos <span class="badge badge-danger">À VENIR!</span> </h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 14 novembre 2018</p>
+                <p class="card-text">Démontrez vos créations!</p>
+
+                <a href="https://repl.it/@Phoenix13610/TicTacToe?language=java" target="_blank" class="btn btn-outline-success">TicTacToe</a>
+                <a href="https://repl.it/@cookiecuty123/Arles-Escape-chapt1"  target="_blank" class="btn btn-outline-success">Escape</a>
+                <a href="https://repl.it/@BaronLiang/BrebeufCode"  target="_blank" class="btn btn-outline-success">Minesweeper</a>
+                <a href="https://The-forest.gagsterslol.repl.run"  target="_blank" class="btn btn-outline-success">The Forest</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Créez votre prore jeu vidéo! <span class="badge badge-danger">À VENIR!</span> </h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 7 novembre 2018</p>
+                <p class="card-text">Apprenez à coder votre jeu vidéo!</p>
+                <a href="https://docs.google.com/presentation/d/1hA5qyIKk9i0oels7H_XbLasmBLNPOvYdVFL2i2qOzMw/edit?usp=sharing" class="btn btn-outline-success">Présentation</a>
+                <a href="https://goo.gl/forms/XR9EIuNCDV4cPDwG2" class="btn btn-outline-success">Soumissions</a>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Les types de données</h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 24 octobre 2018</p>
+                <p class="card-text">Nous avons abordé les types de variables principales</p>
+                <a href="https://docs.google.com/presentation/d/11y-ulRS8YVpjlenQd9ew0W4cuKd5IlC4s8BlIxkcgpU/edit?usp=sharing" class="btn btn-outline-success">Visionner</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Les décisions et les boucles</h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 17 octobre 2018</p>
+                <p class="card-text">Initiation aux décisions et aux boucles, concepts fondamentaux dans la programmation</p>
+                <a href="https://docs.google.com/presentation/d/15F5qETOGmm-qZeXC5qpbH0DbSrF6999-pRkRdxjlorE/edit?usp=sharing" class="btn btn-outline-success">Visionner</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Les fonctions mathématiques</h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 10 octobre 2018</p>
+                <p class="card-text">Comment créer votre propre fonction mathématique avec l'aide des ... fonctions!</p>
+                <a href="https://cjdb365-my.sharepoint.com/:p:/g/personal/1402242_brebeuf_qc_ca/Ecw1b4BKu65BjD3jeE4ruSABZqyMDqZ-hWX9Oo18TlY9eg?e=4%3aHMf65d&at=9" class="btn btn-outline-success">Visionner</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+            <div class="card" style="height:250px; margin-top:50px;">
+              <div class="card-body">
+                <h4 class="card-title">Initiation à la programmation</h4>
+                <p class="card-subtitle mb-2 text-muted">Le mercredi 19 septembre 2018</p>
+                <p class="card-text">Initiation style "crash course" à la programmation et pourquoi l'informatique?</p>
+                <a style="margin:2px;" href="https://docs.google.com/presentation/d/1n0AwOHi29174fmIwjewIBupMtEmO9v6KumQDNltfcjU/edit?usp=sharing" class="btn btn-outline-success">Pourquoi l'informatique?</a>
+                <a style="margin:2px;" href="https://docs.google.com/presentation/d/1gctfbwcsbbDc5LqQU-uXNxPUsCpG4Yh9OBriNb3RX8w/edit?usp=sharing" class="btn btn-outline-success">Introduction au développement web</a>
+                <a style="margin:2px;" href="https://docs.google.com/presentation/d/1eQ6JOya25cd9vgGQciMlM0WFfeWjDtwljLNA5M3v1Mw/edit?usp=sharing" class="btn btn-outline-success">Crash course au Python</a>
+
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+
+
+
+    <footer style="padding:50px;">
+      <p>Copyright Brébeuf Code 2018</p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brébeuf Code</title>
+
+   <link rel="icon" href="https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/45360654_2072829132768732_2856319832146575360_n.png?_nc_cat=100&_nc_ht=scontent-lga3-1.xx&oh=9247c54041982c46d133089cfb93d6f9&oe=5C3EC119" />
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='main.css') }}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">Brébeuf Code</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="qui">Qui-sommes nous?</a>
+          </li>
+
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Événements
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="rencontres">Rencontres</a>
+              <a class="dropdown-item" href="https://wwww.brebeufhx.com">Hackathon</a>
+              <a class="dropdown-item" href="codesprint">SocioCode</a>
+              <a class="dropdown-item" href="competitions">Compétitions</a>
+
+            </div>
+          </div>
+
+          <div class="dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ressources
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="projets">Projets</a>
+              <a class="dropdown-item" href="ressources">Liens utiles</a>
+              <a class="dropdown-item" href="services">Services</a>
+            </div>
+          </div>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="contact" style="padding:5%">
+
+
+
+      <div class="container-fluid">
+        <h1>Compétitions</h1>
+        <p><b>Ensemble de compétitions suggérées par Brébeuf Code</p></b>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Google Code-In</h5>
+                <p class="card-text"><b>ATTENTION:</b> Le Google Code-In n'est plus accessible aux résidents du Québec en raison d'un problème légal concernant l'encadrement de la langue dans les compétitions pour les étudiants du secondaire.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Concours canadien d'informatique</h5>
+                <p class="card-text">Concous d'informatique organisé par l'université de Waterloo. Notez que la date d'inscription interne pour les étudiants du Collège est passée. Veuillez voir M. Racine pour vous inscrire.</p>
+                <a href="http://cemc.uwaterloo.ca/contests/computing-f.html" class="btn btn-outline-success">Je pratique!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="margin-top:5px;">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Concours de jeux vidéos</h5>
+                  <p class="card-text">Concevez votre propre jeu vidéo avant le mercredi 14 novembre 2018!</p>
+                  <!-- <a href="#" class="btn btn-outline-success">Je m'implique!</a> -->
+                </div>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+
+    <footer style="padding:50px;">
+      <p>Copyright Brébeuf Code 2018</p>
+    </footer>
+
+  </body>
+</html>
