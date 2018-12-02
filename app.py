@@ -45,6 +45,10 @@ def services():
 def contact():
     return render_template("contact.html")
 
+@app.route('/sociocode')
+def sociocode():
+    return render_template("sociocode.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
