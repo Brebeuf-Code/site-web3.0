@@ -1,2 +1,5 @@
 # JetBrains tool files
 .idea/
+
+# python cache
+__pycache__/
