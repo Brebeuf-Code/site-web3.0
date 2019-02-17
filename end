@@ -1,0 +1,113 @@
+[33mcommit ec1a6414e5eec47e40c8294bbf2afcb6574fbdcd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:15:00 2018 -0500
+
+    fixed alignment issue
+
+[33mcommit 8727968b92cd96d9d870470043882dd1bf592b48[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:11:11 2018 -0500
+
+    fixed sociocode href in navbar
+
+[33mcommit 8a20b661fef5ba57aa0245b95923b154492ca037[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:07:34 2018 -0500
+
+    added new sociocode route in flask
+
+[33mcommit 0fc543d9aa4a43cd3998bb285aa19a73b304081c[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:07:26 2018 -0500
+
+    removed obsolete sociocode reference in navbar
+
+[33mcommit 87c07149dda8d3fe7215555e6504d1189a202abb[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:05:31 2018 -0500
+
+    fixed footer
+
+[33mcommit 7d9fdd5dfa699c961c5270d5f47309b963ec2c8c[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:05:16 2018 -0500
+
+    ignored python cache files in gitignore
+
+[33mcommit 278899a022ead407567487f4977f748dedda7c38[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 21:04:56 2018 -0500
+
+    removed unnecessary python cache files
+
+[33mcommit d8c4d35e897157b72a1ba08b8f58fa1dcb1c5ef7[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:50:36 2018 -0500
+
+    refactor footer to bottom center
+
+[33mcommit 2b399ddb808f5a0fc21288aefc0ab1634d9b6a89[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:49:26 2018 -0500
+
+    slight refactor
+
+[33mcommit 6fb05bb032d54fcf8d1b68a07d53ba5e5879fd77[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:49:15 2018 -0500
+
+    added SocioCode event page
+
+[33mcommit 6d58f0d9cadd127b3489d7b8f3898af4a1747f91[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:23:33 2018 -0500
+
+    idk what this is but whatever
+
+[33mcommit 78b90af7b3cc2020db7da63246b740a0b7dff5c1[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:23:23 2018 -0500
+
+    added Sociocode flask path
+
+[33mcommit 2f9773aa048e637c85f1176701c0b27ddc3a14f9[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:23:07 2018 -0500
+
+    refactored html, improved readability
+
+[33mcommit 8894c3e3af7ea8484e8a5cba10690c0d5c36eed9[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 20:22:47 2018 -0500
+
+    added coopbecik logo
+
+[33mcommit deef2c05e79bc9b791e139ac29ecf040a8f5b2d0[m
+Author: Yi Feng Yang <yifengyang01@gmail.com>
+Date:   Sat Dec 1 19:55:13 2018 -0500
+
+    updated gitignore
+
+[33mcommit f2023c3681bc5d93909ad7e1bfd593dd1e41f9b2[m
+Author: Laurence Liang <laurencel2001@gmail.com>
+Date:   Thu Nov 29 15:30:40 2018 -0500
+
+    Update codesprint.html
+
+[33mcommit 7f210d22fd37d20157b7e952c167e36556230ede[m
+Author: Laurence Liang <laurencel2001@gmail.com>
+Date:   Wed Nov 28 12:48:03 2018 -0500
+
+    Update rencontres.html
+
+[33mcommit eec305a1aa861ac4fa819abf83a12e6e4b959fa8[m
+Author: Laurence Liang <laurencel2001@gmail.com>
+Date:   Thu Nov 22 12:23:26 2018 -0500
+
+    Add files via upload
+
+[33mcommit ad3494daef4e3518420556e2db6635163c0d867c[m
+Author: Laurence Liang <laurencel2001@gmail.com>
+Date:   Thu Nov 22 12:21:32 2018 -0500
+
+    Create README.md
