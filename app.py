@@ -31,10 +31,10 @@ def competitions():
 def projets():
     return render_template("projets.html")
 
-# @app.route('/sociocode')
-# @app.route('/codesprint')
-# def codesprint():
-#         return render_template("codesprint.html")
+@app.route('/sociocode')
+@app.route('/codesprint')
+def codesprint():
+        return render_template("codesprint.html")
 
 @app.route('/services')
 def services():
@@ -44,10 +44,6 @@ def services():
 @app.route('/contact')
 def contact():
     return render_template("contact.html")
-
-@app.route('/sociocode')
-def sociocode():
-    return render_template("sociocode.html")
 
 
 if __name__ == '__main__':
